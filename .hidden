@@ -1,7 +1,8 @@
 fazer rebase a partir do master, o que deve fazer com que estas changes fiquem, tal 
 como o .gitignore seja atualizado, isto enquanto a "tree" de commits, fica linear 
 com este branch a partir do ultimo commit no master
-(1. Esta change não vai aparecer ao fazer rebase, porque vou dar commit disto,
-e depois outro commit do ponto 2, e vou tentar fazer rebase só a partir do ponto 2.) Isto, está aqui, mas não sei bem porque .....
-Foi depois de ter feito rebase localmente com o master, que fez com que tivessem o ponto 1 e 2 aqui e também o que inicialmente
-foi escrito neste branch. Agora com estas changes vou fazer outra vez pull para o origin/feature/branch1
+1. Esta change não vai aparecer ao fazer rebase, porque vou dar commit disto,
+e depois outro commit do ponto 2, e vou tentar fazer rebase só a partir do ponto 2.
+2. Este commit já vai aparecer no feature/branch1, porque só a partir daqui é que dei rebase 
+do master, mas o master tem também o ponto 1. Isto foi feito localmente o que fez com que 
+o (HEAD -> master) estivesse á frente do origin master.
