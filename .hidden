@@ -1,0 +1,3 @@
+fazer rebase a partir do master, o que deve fazer com que estas changes fiquem, tal 
+como o .gitignore seja atualizado, isto enquanto a "tree" de commits, fica linear 
+com este branch a partir do ultimo commit no master
