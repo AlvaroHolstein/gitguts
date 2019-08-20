@@ -1,0 +1,2 @@
+1. Esta change não vai aparecer ao fazer rebase, porque vou dar commit disto,
+e depois outro commit do ponto 2, e vou tentar fazer rebase só a partir do ponto 2.
