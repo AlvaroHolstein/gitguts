@@ -1,2 +1,5 @@
 1. Esta change não vai aparecer ao fazer rebase, porque vou dar commit disto,
 e depois outro commit do ponto 2, e vou tentar fazer rebase só a partir do ponto 2.
+2. Este commit já vai aparecer no feature/branch1, porque só a partir daqui é que dei rebase 
+do master, mas o master tem também o ponto 1. Isto foi feito localmente o que fez com que 
+o (HEAD -> master) estivesse á frente do origin master.
