@@ -1,0 +1,9 @@
+pipeline {
+    agent any
+
+    stages {
+        stage ('Push image') {
+            sh 'echo "Welele"'
+        }
+    }
+}
