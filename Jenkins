@@ -6,4 +6,4 @@ pipeline {
             sh 'echo "Welele"'
         }
     }
-}
+}"/n mais uma linha"  
